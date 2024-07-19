@@ -1,0 +1,34 @@
+{
+  "Friends": [
+    {
+      "id": "1",
+      "name": "Siddhant Raj",
+      "place": "Bhopal",
+      "company": "Training"
+    },
+    {
+      "id": "2",
+      "name": "Shubham Yagnik",
+      "place": "Indore",
+      "company": "Citi Bank"
+    },
+    {
+      "id": "3",
+      "name": "Vinita Modi",
+      "place": "Pune",
+      "company": "Birla Soft"
+    },
+    {
+      "id": "4",
+      "name": "Shreya Tiwari",
+      "place": "Pune",
+      "company": "Accenture"
+    },
+    {
+      "id": "5",
+      "name": "Shubham Rathore",
+      "place": "Ujjain",
+      "company": "Freelancer"
+    }
+  ]
+}

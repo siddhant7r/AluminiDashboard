@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jspro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav class="nav">
+
+        <div>
+
+<a href="Dashboard.html">       
+<h2>ADMIN DASHBOARD</h2>
+</a>   
+
+        </div>
+        <div> <h1 id="inh">0</h1></div>
+       
+            <!-- <h3>Admin</h3> -->
+
+            
+    </nav>
+       
+    <div class="main">
+    
+    <div class="left">
+
+        <div class="dashl">
+ <i class="fa-solid fa-table-columns"></i>
+ <a href="Dashboard.html">
+        <h3>Dashboard</h3></a>
+
+        </div>
+        
+<div class="userl">
+    <i class="fa-regular fa-user"></i>
+    <a href="About.html">
+        <h3>About</h3>
+    </a>
+    
+
+</div>
+
+<div class="tablel">
+    <i class="fa-solid fa-table-cells-large"></i>
+                <a href="Table.html">
+                <h3>Table</h3>
+            </a>
+</div>
+        
+    
+<div class="insertl">
+    <i class="fa-solid fa-download"></i>
+
+    <a href="Insert.html">
+    <h3>Insert</h3>
+</a>
+</div>
+
+<!-- <div class="updatel">
+    <i class="fa-solid fa-trash"></i>
+    <a href="Update.html">
+    <h3>Update</h3>
+</a>
+</div> -->
+        
+           
+            
+           
+       
+        </div>
+
+        <div class="right">
+                <!-- <table border="">
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Place</th>
+                        <th>Company</th>
+                    <tbody id="table"> 
+
+                    </tbody>
+                </table> -->
+
+                <h3 class="ideets">Enter your details to join the event</h3>
+
+                <div class="imdiv">
+                    <div></div>
+                    <div class="ndiv">
+                <form action="" class="formi">
+                    <label for="id">Id       </label> 
+                    <input type="text" id="id" placeholder="Enter your id"  class="finput"> <br>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" class="finput"> <br>
+                    <label for="place">Place</label>
+                    <input type="text" id="place" placeholder="Enter your current place" class="finput"> <br>
+                    <label for="company">Company</label>
+                    <input type="text" id="company" placeholder="Enter your current company" class="finput"> <br>
+
+                    <input type="submit" onclick="add()"  class="fsubmit">
+
+                </form>
+            </div>
+                <div></div>
+            </div>
+        </div>
+
+</div>
+    <script src="fetchdb.js"></script>
+</body>
+</html>

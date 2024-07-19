@@ -1,0 +1,236 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px inset;
+    
+    background-color:lavender;
+    
+}
+
+.nav h2{
+ 
+    
+   text-align: center;
+   text-shadow: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+
+    color:rgb(4, 156, 148);
+}
+
+.main{
+    display: flex;
+}
+
+
+
+.left{
+    border: 2px solid;
+    width: 17%;
+    height: 700px;
+    padding: 20px;
+
+    background-color: paleturquoise;
+}
+
+
+.img{
+   text-align:center ;
+}
+
+.headd{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:deepskyblue;
+    font-size: 20px;
+}
+
+
+.dashl{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.userl{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tablel{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.insertl{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.updatel{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.right{
+    border:2px solid;
+    width: 83%;
+    background-color: beige;
+}
+
+.imagesdash{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* .stu{
+    text-align: center;
+    
+} */
+
+.aboutimg{
+    display: flex;
+    justify-content: space-around;
+}
+.dacro{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:coral;
+}
+
+.dalumi{
+    font-size: 60px;
+    font-family:unset;
+    text-align: center;
+    color: black;
+    text-shadow: 20px;
+    text-decoration: underline;
+}
+
+.dpara{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+
+.formi{
+   
+    border: 2px solid;
+    border-radius: 6px;
+    border-color:darkslateblue;
+    display: flex;
+    flex-direction: column;
+    height: 32ch;
+    width: 100%; 
+    align-items: center;
+    background-color:rgb(229, 187, 233);
+    font-family:cursive;
+    font-size: 20px;
+    color:darkslategray;
+    
+    
+   
+  
+}
+
+.thead{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkmagenta;
+    text-align: center;
+    text-decoration: wavy;
+}
+.ndiv{
+    padding-top: 50px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 160px;
+    
+}
+
+.ideets{
+    text-align: center;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    background-color:darkseagreen;
+    align-items: center;
+}
+
+.form1 input{
+    padding: 200px;
+}
+
+.tablecss{
+
+
+    height: 60%;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(96, 227, 183);
+    
+}
+
+.tdashcss {
+       
+    text-align: center;
+    width: 100%;  
+    font-weight: 200;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(231, 170, 109);
+    border: none;
+    padding: 20px;
+}
+.tdashcss th{
+    height: 40px;
+}
+
+.tdashcss tr{
+    height: 35px;
+}
+
+.tdashcss tbody{
+    padding: 20px;
+}
+
+
+
+
+.fsubmit{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.finput{
+    padding: 5px;
+    border-radius: 5px;
+}
